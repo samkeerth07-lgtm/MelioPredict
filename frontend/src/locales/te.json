@@ -1,0 +1,92 @@
+{
+  "appName": "మెలియోప్రెడిక్ట్",
+
+  "title": "మెలియోయిడోసిస్ వ్యాధి ప్రమాద అంచనా",
+  "description": "లక్షణాలు, వైద్య చరిత్ర మరియు పర్యావరణ ప్రభావాల ఆధారంగా మెలియోయిడోసిస్ ప్రమాదాన్ని అంచనా వేయండి.",
+
+  "startPrediction": "అంచనా ప్రారంభించండి",
+
+  "riskAssessment": "ప్రమాద అంచనా ఫారం",
+  "riskAssessmentDesc": "దయచేసి సరైన ఫలితాల కోసం అన్ని వివరాలను నమోదు చేయండి.",
+
+  "personalInformation": "వ్యక్తిగత సమాచారం",
+
+  "age": "వయస్సు",
+  "gender": "లింగం",
+
+  "male": "పురుషుడు",
+  "female": "మహిళ",
+
+  "symptoms": "లక్షణాలు",
+
+  "fever": "జ్వరం ఉందా?",
+  "weakness": "బలహీనంగా అనిపిస్తుందా?",
+  "skinRedness": "చర్మం ఎర్రగా ఉందా?",
+  "skinSwelling": "చర్మం వాపు ఉందా?",
+  "skinUlcer": "చర్మంపై పుండు ఉందా?",
+  "jointPain": "కీళ్ల నొప్పి ఉందా?",
+  "difficultyMoving": "నడవడానికి ఇబ్బంది ఉందా?",
+  "persistentCough": "ఎక్కువ రోజులుగా దగ్గు ఉందా?",
+
+  "medicalHistory": "వైద్య చరిత్ర",
+
+  "diabetes": "మధుమేహం (షుగర్) ఉందా?",
+  "kidneyDisease": "మూత్రపిండాల వ్యాధి ఉందా?",
+  "lungDisease": "ఊపిరితిత్తుల వ్యాధి ఉందా?",
+  "immuneDisorder": "రోగనిరోధక శక్తి తక్కువగా ఉందా?",
+
+  "exposureHistory": "పర్యావరణ ప్రభావం",
+
+  "soilContact": "ఇటీవల మట్టిలో పని చేశారా?",
+  "rainExposure": "ఇటీవల వర్షంలో తడిశారా?",
+  "openWound": "శరీరంపై గాయాలు ఉన్నాయా?",
+  "farmingActivity": "వ్యవసాయం చేస్తున్నారా?",
+  "floodWater": "ఇటీవల వరద నీటిలో లేదా నిల్వ నీటిలో ఉన్నారా?",
+
+  "uploadImage": "చర్మ గాయం చిత్రాన్ని అప్‌లోడ్ చేయండి",
+  "uploadDesc": "విశ్లేషణ కోసం చర్మ గాయం యొక్క స్పష్టమైన చిత్రాన్ని అప్‌లోడ్ చేయండి.",
+
+  "predictRisk": "వ్యాధి ప్రమాదాన్ని అంచనా వేయండి",
+  "predictionResult": "ఫలితం",
+  "noPredictionFound": "అంచనా ఫలితం కనుగొనబడలేదు. దయచేసి ఫారం పూర్తి చేయండి.",
+  "highRisk": "అధిక ప్రమాదం",
+  "lowRisk": "తక్కువ ప్రమాదం",
+  "newAssessment": "కొత్త అంచనా",
+  "modelConfidence": "మోడల్ విశ్వాసం",
+  "confidencePercentage": "{{percent}}% విశ్వాసం",
+  "clinicalGuidance": "క్లినికల్ మార్గదర్శకత్వం",
+  "severityLevel": "గంభీరత స్థాయి:",
+  "suggestedDiagnosticTests": "సిఫార్సు చేసిన డయాగ్నోస్టిక్ పరీక్షలు",
+  "commonAntibioticsUsed": "నిర్ధారిత మెలియోయిడోసిస్‌లో తరచుగా ఉపయోగించే యాంటీబయోటిక్స్",
+  "educationalNote": "విద్యా గమనిక",
+  "educationalNoteBody": "పై సూచించిన యాంటీబయోటిక్స్ సాధారణంగా నిర్ధారిత మెలియోయిడోసిస్ కేసులలో ఉపయోగిస్తారు. ఈ సమాచారం విద్యా ప్రయోజనాల కోసం మాత్రమే ఉంది మరియు దీన్ని ప్రిస్క్రిప్షన్‌గా పరిగణించకండి. పరీక్షలు చే విషయంలో, చికిత్స ఎల్లప్పుడూ ఒక అర్హ వైద్య నిపుణుడు నిర్ణయించాలి.",
+  "recommendation": "సిఫార్సు",
+  "predictionIndicatesHighRisk": "మీ అంచనాకు మెలియోయిడోసిస్‌కు అధిక ప్రమాదం ఉంది.",
+  "performBloodCulture": "బ్లడ్ కల్చర్ పరీక్ష చేయండి.",
+  "seekAntibioticEvaluation": "యాంటీబయోటిక్ మూల్యాంకనాన్ని పొందండి.",
+  "avoidDelayInTreatment": "చికిత్సలో ఆలస్యం చేయవద్దు.",
+  "predictionIndicatesLowRisk": "మీ అంచనాకు మెలియోయిడోసిస్‌కు తక్కువ ప్రమాదం ఉంది.",
+  "maintainGoodHygiene": "మంచి పరిశుభ్రత పాటించండి.",
+  "avoidExposure": "గల్లంతి మట్టిలో లేదా వరద నీటిలో దీర్ఘకాలికంగా ఉండకూడదు.",
+  "monitorSymptoms": "లక్షణాలను పరిశీలించండి.",
+  "consultIfWorsen": "లక్షణాలు పల్లవిస్తే వైద్యుడిని సంప్రదించండి.",
+  "apiResponse": "API ప్రతిస్పందన",
+  "runAnotherAssessment": "మళ్లీ అంచనా వేయండి",
+  "severityMild": "హలక",
+  "severityModerate": "మధ్యమ",
+  "severitySevere": "గంభీర",
+  "stageGeneralObservation": "సాధారణ పరిశీలన",
+  "stageLocalizedSkinInfection": "స్థానిక చర్మ సంక్రమణ",
+  "completeBloodCount": "పూర్తి రక్త గణన (CBC)",
+  "bloodCulture": "బ్లడ్ కల్చర్",
+  "chestXRay": " ఛాతీ ఎక్స్-రే",
+  "woundCulture": "గాయం కల్చర్",
+  "bloodSugarTest": "రక్త చక్కెర పరీక్ష",
+  "noAntibioticsRecommended": "ఈ స్క్రీనింగ్ ఆధారంగా యాంటీబయోటిక్స్ అవసరం లేదు.",
+  "consultPhysicianIfSymptomsPersist": "లక్షణాలు కొనసాగితే వైద్యుడిని సంప్రదించండి.",
+  "ceftazidime": "సెఫ్టజిడిమ్ (IV)",
+  "meropenem": "మెరోపెనెమ్ (IV)",
+  "imipenem": "ఇమిపెనెమ్ (IV)",
+  "trimethoprimSulfamethoxazole": "ట్రైమెథోప్రిమ్-సల్ఫామెథాక్సజోల్ (TMP-SMX)",
+  "consultDoctor": "వెంటనే వైద్యుడిని సంప్రదించండి."
+}
