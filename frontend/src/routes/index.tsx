@@ -1,12 +1,7 @@
 import "../i18n";
 import { useTranslation } from "react-i18next";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import {
-  Activity,
-  ShieldCheck,
-  Stethoscope,
-  Sparkles,
-} from "lucide-react";
+import { Activity, Stethoscope, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   component: Home,
@@ -88,54 +83,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Features */}
-
-      <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-3 gap-6">
-
-        {[
-          {
-            icon: Stethoscope,
-            title: t("feature1Title"),
-            desc: t("feature1Desc"),
-          },
-          {
-            icon: Activity,
-            title: t("feature2Title"),
-            desc: t("feature2Desc"),
-          },
-          {
-            icon: ShieldCheck,
-            title: t("feature3Title"),
-            desc: t("feature3Desc"),
-          },
-        ].map(({ icon: Icon, title, desc }) => (
-          <div
-            key={title}
-            className="rounded-2xl border border-border bg-card p-6"
-            style={{ boxShadow: "var(--shadow-medical)" }}
-          >
-            <div className="h-11 w-11 rounded-lg bg-accent text-primary grid place-items-center mb-4">
-              <Icon className="h-5 w-5" />
-            </div>
-
-            <h3 className="font-semibold text-foreground">
-              {title}
-            </h3>
-
-            <p className="mt-2 text-sm text-muted-foreground">
-              {desc}
-            </p>
-
-          </div>
-        ))}
-
-      </section>
-
-      {/* Footer */}
-
-      <footer className="border-t border-border py-6 text-center text-xs text-muted-foreground">
-        {t("footer")}
-      </footer>
 
     </div>
   );
